@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html>
+	<head>
+	<title>Tarea #2</title>
+	<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet"type="text/css"href="css/bibliografia.css">
+    </head>
+        <body>
+		<header><div id="menu">
+		   
+				
+				
+				</li>
+				
+				<li id="item"><a href="#">Menu De Tareas</a>
+				<ul id="desplega">
+				<li><a href="tarea1.html">Tarea:1 </a> </li>
+				<li><a href="tarea2.html.html">Tarea:2</a> </li>
+				<li><a href="tarea4.html">Tarea:3</a> </li>
+				<li><a href="tarea4.html">Tarea:4</a> </li><br></br>
+				<li><a href="tarea5.html">Tarea:5</a> </li>
+				<li><a href="tarea6.html">Tarea:6</a> </li>
+				<li><a href="tarea7.html">Tarea:7</a> </li>
+				<li><a href="tarea8.html">Tarea:8</a> </li><br></br>
+				<li><a href="tarea9.html">Tarea:9</a> </li>
+				<li><a href="tarea10.html">Tarea:10</a> </li>
+				
+				<li><a href="indexx.html">M.Principal</a> </li>
+				
+				</ul>
+				</li>
+				</p>
+		 <h1>Practica #8 Lenguajes Funcionales </h1>
+		 <h2>¿Características de los lenguajes funcionales? </h2>
+		 <h2>COMPLETAR LA SIG. TABLA: </h2>
+		  <table style="width:85%"> 
+		   <tr>
+		   <th>Lenguajes </th>
+		   <th>Caracterizticas</th>
+		   <th>Codigo-Ejemplo</th>
+		   </tr>
+		   <tr>
+		   <td width="33%">HASKELL
+		                                                  </td>
+		   <td width="33%">Es un lenguaje de programación puramente funcional, de propósito general. El nombre proviene del matemático y lógico estadounidense Haskell Curry<br></br>
+		   Incluye muchas de las últimas innovaciones en el desarrollo de los lenguajes de programación funcional, como son las funciones de orden superior, evaluación perezosa, tipos polimórficos estáticos, tipos definidos por el usuario, encaje por patrones, y definiciones de listas. 
+           Incorpora, además, otras características interesantes como el tratamiento sistemático de la sobrecarga, la facilidad en la definición de tipos abstractos de datos, el sistema de entrada/salida puramente funcional y la posibilidad de utilización de módulos. 
+           Se utiliza como referencia el entorno de programación Hugs y se supone que el lector tiene unos mínimos conocimientos del modelo de programación imperativo o tradicional.</td>
+		   <td>Programa que recibe un número entero y devuelve la factorial del mismo.<br></br> fact::Int->Int<br></br>fact 0=1<br></br>fact n=n*fact(n-1) </td>
+		   </tr>
+		   <tr>
+		   <td>ERLANG</td>
+		    <td>Erlang es un lenguaje de programación concurrente (u orientado a la concurrencia) y un sistema de ejecución que incluye una máquina virtual (BEAM) y bibliotecas (OTP)<br></br>
+			Concurrente - Erlang tiene procesos extremadamente livianos cuyos requerimientos de memoria varían dinámicamente. Los procesos no tienen memoria compartida y se comunican via mensajes asincrónicos. Soporta aplicaciones con una gran cantidad de procesos concurrentes. <br></br> 
+			Distribuido - Erlang está diseñado para correr en ambientes distribuidos. Una maquina virtual de Erlang es un nodo de Erlang. Un sistema distribuido de Erlang es una red de nodos (generalmente uno por procesador). Un nodo Erlang puede crear procesos paralelos ejecutando en otros nodos, lo cuales podrían utilizar otros sistemas operativos. Los procesos que residen en diferentes nodos se comunican exáctamente de la misma forma que si estuviesen en un nodo local. </td>
+			<td>Programa que calcula el factorial de un numero <br></br>-module(factorial).<br></br>-export([factorial/1]).<br></br>factorial(N) when N == 0 -> 1;<br></br>factorial(N) when N > 0 -> N * factorial(N-1).</td>
+		   </tr>
+		   <tr>
+		    <td>LISP</td>
+			 <td>Lenguaje de programación LISP. Es un lenguaje de programación aplicativo o funcional, de propósito general, se basa en la aplicación de funciones a los datos y se apoya en la utilización de funciones matemáticas para el control de los mismos<br></br>
+			 El LISP es un lenguaje funcional que se apoya en la utilización de funciones matemáticas para el control de los datos. Pero el elemento fundamental en el LISP es la lista. Y desde el punto de vista más amplio del término. Cada función del LISP y cada programa que generemos con él vienen dado en forma de lista. Por esta razón los datos no se pueden diferenciarse sintácticamente de los programas.</td>
+			 <td>* (* 3 5) ; multiplica 3 por 5 15 <br></br>* (* 2 3 4) ; multiplica 2 por 3 y por 4 24 <br></br>* (/ 20 5) ; 20 dividido por 5 4.0 </td>
+		   </tr>
+		   <tr>
+		    <td>SCHEME</td>
+			 <td>Scheme es un lenguaje de programación funcional (si bien impuro pues sus estructuras de datos no son inmutables) y un dialecto de Lisp.<br></br>
+			 La filosofía de Scheme es minimalista. Su objetivo no es acumular un gran número de funcionalidades, sino evitar las debilidades y restricciones que hacen necesaria su adición. Así, Scheme proporciona el mínimo número posible de nociones primitivas, construyendo todo lo demás a partir de un reducido número de abstracciones. Por ejemplo, el mecanismo principal para el control de flujo son las llamadas recursivas. </td>
+			 <td>Determinar si un número es par o impar <br></br>;numero par: numero -> falso o verdadero<br></br>;programa que determine si un numero es paro impar.<br></br>(define (num-par A);A es el numero digitado<br></br>(cond <br></br>
+			 [(not (and (number? A) (not(= A 0)))) "el numero digitado es 0 o no es un numero"] <br></br>;[ (even? A) "el numero es par"]<br></br> [else "el numero es impar"] ))<br></br>;prueba<br></br>(num-par 6)<br></br>(num-par 5)</td>
+		   </tr>
+		   
+		  </table>
+		  </header>
+		</body>
+		</html>
+     

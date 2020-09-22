@@ -1,0 +1,67 @@
+ <html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>My Primer Sitio Web</title>
+	<link rel="stylesheet"type="text/css"href="css/tarea1.css">
+	
+	<style>
+	
+	</style>
+    </head>
+        <body>
+		
+		<header><div id="menu">
+		   
+				
+				
+				</li>
+				
+				<li id="item"><a href="#">Menu De Tareas</a>
+				<ul id="desplega">
+				<li><a href="tarea1.html">Tarea:1 </a> </li>
+				<li><a href="tarea2.html.html">Tarea:2</a> </li><br></br>
+				<li><a href="tarea3.html">Tarea:3</a> </li>
+				<li><a href="tarea4.html">Tarea:4</a> </li><br></br>
+				<li><a href="tarea5.html">Tarea:5</a> </li>
+				<li><a href="tarea6.html">Tarea:6</a> </li><br></br>
+				<li><a href="tarea7.html">Tarea:7</a> </li>
+				<li><a href="tarea8.html">Tarea:8</a> </li><br></br>
+				<li><a href="tarea9.html">Tarea:9</a> </li>
+				<li><a href="tarea10.html">Tarea:10</a> </li><br></br>
+				
+				<li><a href="indexx.html">M.Principal</a> </li>
+				
+				</ul>
+				</li>
+				</p>
+				</header>
+		<h1>PRACTICA #7 INVESTIGACION
+		<h2>CONCEPTOS FUNDAMENTALES DE LOS LENGUAJES DE PROGRAMACION</h2>
+		<h3>¿Qué es el flujo de control?  </h3>
+		<p>Se llama flujo de control al orden en el que se ejecutan las instrucciones de un programa, siendo las propias instrucciones las que determinan o controla dicho flujo. En un programa, a menos que el flujo de control se vea modificado por una instrucción de control, las instrucciones siempre se ejecutan secuencialmente, una detrás de otra, en orden de aparición, de izquierda a derecha y de arriba abajo, que es el flujo natural de un programa.</p>
+		<h3> ¿Qué es una subrutina?   </h3>
+		<p>Una subrutina es una porción de código que forma parte de un programa más grande. Esa porción de código realiza una tarea específica, relativamente independiente del resto del código. La mayoría de los lenguajes de programación soportan la creación de subrutinas y métodos para llamarlas (invocarlas) y retornarlas.</p>
+		<h3>¿Qué es recursión? </h3>
+		<p>la recursión, también conocida como recursividad o recurrencia, es un concepto abstracto que hace referencia a que una función o método se invoque a sí mismo dentro del bloque de código que lo define.</p>
+		
+		<h3>¿Cuándo se puede utilizar la recursión? </h3>
+		<p>Se puede usar en toda situación en la cual la solución pueda ser expresada como una secuencia de movimientos, pasos o transformaciones gobernadas por un conjunto de reglas no ambiguas. 
+         3 </p>
+        <h3>¿En que casos NO SE APLICA la recursión?   </h3>
+		<p> •Cuando los métodos usen arreglos largos. <br></br>• Cuando el método cambia de manera impredecible de campos.<br></br> • Cuando las iteraciones sean la mejor opción.  15 </p> 
+		<h3>MENCIONE UN EJEMPLO DE RECURSION, Y AGREGUE EL CÓDIGO. </h3>
+		<p>Ejemplo: <br></br>  Serie de Fibonacci Valores: 0, 1, 1, 2, 3, 5, 8... <br></br> Cada término de la serie suma los 2 anteriores.<br></br> Fórmula recursiva fib(n) = fib (n - 1) + fib (n - 2) 
+        <br></br>Caso base:  Fib (0)=0; Fib (1)=1  <br></br>Caso recursivo: Fib (i) = Fib (i -1) + Fib(i -2) <br></br>
+         public static int fib(int n){ <br></br> if (n <= 1) return n;        //condición base  <br></br> else  return fib(n-1)+fib(n-2);    //condición recursiva } <br></br>
+		<h3> Codigo:</h3>
+		<p>< ! DOCTYPE html > <br></br>< html><br></br> < head ><br></br>< title>Series de Fibonacci < / title > <br></br> < / head> <br></br>< body><br></br>< script><br></br>
+		  function fibonacci(numero)<br></br>{<br></br>let numeros=[0,1];<br></br>for (let i = 2; i < numero; i++) {<br></br>numeros[i] = numeros[i - 2] + numeros[i - 1];<br></br>}<br></br> return numeros;<br></br>}<br></br> document.write(fibonacci(10));<br></br> </ script><br></br></ body><br></br></ html></p>
+		</p>
+		<div class="c-img">
+		
+				</div>
+				</header>
+				
+		
+        </body>
+    </html>
