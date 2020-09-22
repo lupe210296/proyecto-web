@@ -1,0 +1,155 @@
+
+body{
+background-image:
+   
+	
+url(../imagenes/57.jpg);
+background-position:center
+center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment:fixed;
+}
+.testbox{
+	color: white;
+	font-family:arial;
+	font-size: 40px;
+	padding: 50px;
+	text-align: center;
+	margin: 15px auto;
+	width: 1000px;
+}
+.tes{
+	color: white;
+	font-family:arial;
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	margin: 15px auto;
+	width: 1000px;
+}
+.textbox{
+	color: white;
+	font-family:arial;
+	font-size: 40px;
+	padding: 5px;
+	text-align: center;
+	margin: 1px auto;
+	width: 1000px;
+}
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#texto{
+	font: bold 30 px tahoma;
+	width: 100%;
+}
+#centro{
+    font-family:arial;
+	font-size: 40px;
+	padding: 15px;
+	text-align: center;
+	width: 600px;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table {	
+	margin-top:10px;
+	caption-side:bottom;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+}
+th{
+	background-color:black;
+	color:white;
+}
+td,th{
+	border: 2px solid white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	border-bottom: 10px;
+}
+ .navegacion{
+	width: 300px;
+	margin: 75px 30px;
+    font-family:arial;
+	font-size:25px;
+	font-weight: bold;
+	
+	text-align: center;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+	position:relative;
+	display: inline-block;
+}
+.menu > li > a{
+	display:block;
+	padding: 15px 20px;
+	color: white;
+	font-family: "open sans";
+	text-decoration: none;
+}
+.menu > li > a:hover{
+	color: red;
+	transition: all .3s;
+}
+.submenu{
+	position:absolute;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block;
+	
+	padding: 5px;
+	color: #fff;
+	font-family: "open sans";
+	text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+h4{
+	color: black;
+	position: right;
+	font-size: 10px;
+	
+}
+h3{
+	
+	color: black;
+	position: right;
+	font-size: 30px;
+	padding-top: 50px;
+	padding-left: 425px;
+	
+}
+
